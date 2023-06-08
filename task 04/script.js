@@ -18,7 +18,7 @@ let count = 0;
 
 // TODO: За допомогою метода forEach
 
-const x = arr.forEach(x => {
+arr.forEach(x => {
   if(x < 0){
     count++;
   }
