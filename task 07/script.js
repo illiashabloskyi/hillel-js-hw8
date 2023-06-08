@@ -19,10 +19,10 @@ let sum = 0;
 
 // TODO: За допомогою метода forEach
 
-arr.forEach(x => {
-  if(x > 0 && x % 2 ===0){
+arr.forEach((x) => {
+  if (x > 0 && x % 2 === 0) {
     sum += x;
   }
-})
+});
 
 console.log(`Сума парних позитивних елементів: ${sum}`);
