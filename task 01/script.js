@@ -6,21 +6,30 @@ const arr = [
 ];
 
 let sum = 0;
+let count = 0;
 
 // TODO: За допомогою циклів
-// for (let i = 0; i < arr.length; i++){
-//   if (arr[i] > 0){
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] > 0) {
 //     sum += arr[i];
+//     count++;
 //   }
 // }
 
-// console.log(`Сума позитивних елементів: ${sum}`)
+// console.log(
+//   `Сума позитивних елементів: ${sum}\nКількість позитивних елементів: ${count}`
+// );
 
 // TODO: За допомогою метода forEach
+
 arr.forEach((x) => {
   if (x > 0) {
     sum += x;
+    count++;
   }
 });
 
-console.log(`Сума позитивних елементів: ${sum}`);
+console.log(
+  `Сума позитивних елементів: ${sum}\nКількість позитивних елементів: ${count}`
+);

@@ -19,11 +19,10 @@ let count = 0;
 
 // TODO: За допомогою метода forEach
 
-arr.forEach(x => {
-  if(x > 0 && x % 2 ===0){
+arr.forEach((x) => {
+  if (x > 0 && x % 2 === 0) {
     count++;
-
   }
-})
+});
 
 console.log(`Кількість парних позитивних елементів: ${count}`);
